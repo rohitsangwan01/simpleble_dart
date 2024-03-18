@@ -33,7 +33,7 @@ class SimpleBle {
         Abi.macosArm64 => "binaries/mac/arm/libsimpleble-c.dylib",
         Abi.windowsX64 => "binaries/win/x86_64/simple_ble.dll",
         Abi.windowsIA32 => "binaries/win/win32/simple_ble.dll",
-        Abi.linuxX64 => "binaries/linux/x86_64/libsimpleble-c.so",
+        Abi.linuxX64 => "binaries/linux/x86_64/libsimpleble_c.so",
         _ => null,
       };
 }
